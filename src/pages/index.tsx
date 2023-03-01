@@ -7,7 +7,7 @@ import classNames from "classnames"
 export default function Home() {
   return (
     <>
-      <div className="text-red-300">Prova</div>
+      <div className="">Prova</div>
     </>
   )
 }
