@@ -4,6 +4,7 @@ import classNames from "classnames"
 import Hero from "@organisms/Hero"
 import BusinessPlan from "@organisms/Business Plan"
 import Footer from "@organisms/Footer"
+import Favicon from "@molecules/Favicon"
 
 const text1 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
 const text2 = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
@@ -17,10 +18,14 @@ const costsRevenue = "Lorem Ipsum is simply dummy text of the printing and types
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>BusinessPlan</title>
+      <meta name="keywords" content="Business Plan, an Innovative Cloud Challenge landing"/>
+      <Favicon />
+    </Head>
       <div className="flex flex-col justify-center px-[20px]">
         <Hero text1={text1} text2={text2} text3={text3} />
         <BusinessPlan activitText={activity} clientText={clients} partnersText={partners} CostsRevenueText={costsRevenue} />
-        <Footer />
       </div>
     </>
   )
