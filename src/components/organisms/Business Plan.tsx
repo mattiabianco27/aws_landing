@@ -57,7 +57,7 @@ export default function BusinessPlan(props: BPProps) {
       <div className="flex text-[40px] font-bold bg-gradient-to-r from-lightblue to-red text-transparent bg-clip-text">
         Business Plan
       </div>
-      <div className="w-full px-[20px] mt-[20px]">
+      <div className="w-full px-[20px] mt-[20px] laptop:px-[200px]">
         <Accordion
           variant="filled"
           radius={"md"}
