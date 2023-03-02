@@ -13,8 +13,8 @@ const text3 =
   "Sfrutta la potenza dei servizi Amazon Web Services per ottenere analisi precise e veloci dei dati collezionati";
 const activity =
   "Il modello di business che vuole essere proposto è un modello per cui le agenzie di telecomunicazioni analizzano, sfruttando i servizi di cloud computing offerti da AWS," +
-  " i dati delle ricerche degli utenti per vendere a negozi fisici analisi di interesse dei singoli utenti. Il modello è tale per cui a un qualsiasi cliente che entra in un negozio fisico " +
-  "convenzionato vengono generate offerte personalizzate basate sui dati di ricerca per soddisfare le sue esigenze uniche. Questo sistema innovativo di advertising permetterebbe una rivalutazione dei negozi fisici" +
+  " i dati delle ricerche degli utenti per vendere a negozi fisici analisi di interesse dei singoli utenti. Il modello è tale per cui un qualsiasi cliente che entri in un negozio fisico " +
+  "convenzionato riceva offerte personalizzate generate in base ai dati di ricerca per soddisfare le sue esigenze uniche. Questo sistema innovativo di advertising permetterebbe una rivalutazione dei negozi fisici" +
   " oltre che la creazione di un vero e proprio business per le agenzie di telecomunicazioni";
 const clients =
   "I clienti diretti di AWS diventerebbero quindi le grandi agenzie di telecomunicazione come AT&T e Verizon Communications, immaginando che queste abbiano stretto degli accordi di privacy con i vari clienti tali per cui sono autorizzate alla vendita e alla divulgazione dei dati di navigazione e di geolocalizzazione";
