@@ -1,6 +1,6 @@
 import Image from "next/image"
 import heroImage from "../../../public/hero.svg"
-import { Accordion, createStyles, rem } from "@mantine/core";
+import { Accordion, createStyles, rem, Text, List } from "@mantine/core";
 import { AccordionItem } from "@mantine/core/lib/Accordion/AccordionItem/AccordionItem";
 
 interface BPProps {
@@ -38,6 +38,7 @@ const useStyles = createStyles((theme) => ({
       color: 'white',
     },
   },
+
   control: {
     color:'white',
     fontSize: '20px',
@@ -62,7 +63,9 @@ export default function BusinessPlan(props:BPProps) {
             <Accordion variant="filled" radius={"md"} className={classes.root} classNames={classes}>
                 <Accordion.Item value="Attività">
                     <Accordion.Control>Attività</Accordion.Control>
-                    <Accordion.Panel>{props.activitText}</Accordion.Panel>
+                    <Accordion.Panel>
+                      {props.activitText}
+                    </Accordion.Panel>
                 </Accordion.Item>
                 <Accordion.Item value="Clienti">
                     <Accordion.Control>Clienti</Accordion.Control>
