@@ -30,7 +30,7 @@ export default function Hero(props:HeroProps) {
         <div className="flex flex-col py-[30px]">
             <div className="flex text-[30px] mb-[8px]">Cloud <p className="font-bold text-blue ml-[7px]">Analysis</p></div>
             <div className="flex flex-row">
-                <div className="flex pr-[15px]">{props.text2}</div>
+                <div className="flex pr-[15px]">{props.text3}</div>
                 <div className="flex"><Lottie animationData={cloudAnimation} style={{height: 120, width: 120}}/></div>
 
             </div>

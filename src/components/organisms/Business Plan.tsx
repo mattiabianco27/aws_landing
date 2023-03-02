@@ -72,7 +72,7 @@ export default function BusinessPlan(props:BPProps) {
                     <Accordion.Control>Partners</Accordion.Control>
                     <Accordion.Panel>{props.partnersText}</Accordion.Panel>
                 </Accordion.Item>
-                <Accordion.Item value="Costi e Banefici">
+                <Accordion.Item value="Costi e Benefici">
                     <Accordion.Control>Costi e Banefici</Accordion.Control>
                     <Accordion.Panel>{props.CostsRevenueText}</Accordion.Panel>
                 </Accordion.Item>
