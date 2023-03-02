@@ -17,7 +17,7 @@ module.exports = {
       // => @media (min-width: 1440px) { ... }
     },
     extend: {
-      colors: { green: "#049F84", red: "#D80D3D", "light-red": "#FD2054" },
+      colors: { lightblue: "#0fd6e1", blue: "#396dd2", "red": "#ff2d55" },
     },
   },
   plugins: [],
