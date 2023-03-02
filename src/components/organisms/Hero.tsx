@@ -21,19 +21,19 @@ export default function Hero(props: HeroProps) {
         />
       </div>
 
-      <div className="flex flex-col py-[30px] laptop:pr-[300px]">
+      <div className="flex flex-col py-[30px] laptop:pr-[600px]">
         <div className="text-[30px] mb-[8px]">
           Ciò che il cliente{" "}
           <p className="font-bold mt-[-8px] text-lightblue">sta cercando</p>
         </div>
         <div className="flex">{props.text1}</div>
       </div>
-      <div className="flex flex-col py-[30px] laptop:pl-[300px]">
+      <div className="flex flex-col py-[30px] laptop:pl-[600px]">
         <div className="flex text-[30px] mb-[8px]">
           Offerte <p className="font-bold text-red ml-[7px]">data-driven</p>
         </div>
         <div className="flex flex-row">
-          <MapPinIcon className="text-red mx-[8px] laptop:w-48" />
+          <MapPinIcon className="text-red mx-[8px] laptop:w-40" />
           <div className="pl-[5px] ">{props.text2}</div>
         </div>
       </div>
