@@ -42,7 +42,7 @@ export default function Hero(props: HeroProps) {
           Cloud <p className="font-bold text-blue ml-[7px]">Analysis</p>
         </div>
         <div className="flex flex-row">
-          <div className="flex pr-[15px]">{props.text2}</div>
+          <div className="flex pr-[15px]">{props.text3}</div>
           <div className="flex">
             <Lottie
               animationData={cloudAnimation}
