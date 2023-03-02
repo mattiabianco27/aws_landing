@@ -17,11 +17,11 @@ const activity =
   "convenzionato riceva offerte personalizzate, generate in base ai dati di ricerca, mirate a soddisfare le sue esigenze uniche. Questo sistema innovativo di advertising permetterebbe una rivalutazione dei negozi fisici" +
   " oltre che la creazione di un vero e proprio business per le agenzie di telecomunicazioni";
 const clients =
-  "I clienti diretti di AWS diventerebbero quindi le grandi agenzie di telecomunicazione come AT&T e Verizon Communications, immaginando che queste abbiano stretto degli accordi di privacy con i vari clienti tali per cui sono autorizzate alla vendita e alla divulgazione dei dati di navigazione e di geolocalizzazione";
+  "I clienti diretti di AWS diventerebbero quindi le grandi agenzie di telecomunicazione come AT&T e Verizon Communications, immaginando che queste abbiano stretto degli accordi di privacy con i vari clienti tali per cui siano autorizzate alla vendita e alla divulgazione dei dati di navigazione e di geolocalizzazione";
 const partners =
   "In un contesto come quello proposto, i principali partners delle agenzie di telecomunicazioni diventerebbero le agenzie di marketing: ogni negozio fisico interessato acquisterebbe quindi un pacchetto in grado non solo di fornire dati riguardo i clienti e i loro interessi, ma anche di sviluppare una strategia applicativa in grado di promuovere le vendite e aumentare i profitti";
 const costsRevenue =
-  "L'agenzia di telecomunicazione che vuole implementare un business di questo tipo avrà bisogno di basare l'analisi dei dati raccolti (navigazione e geolocalizzazione) su un servizio di cloud computing di AWS. In modo particolare vengono utilizzati servizi quali Amazon Kinesis Data Analytics che permette di ricevere informazioni dettagliate e fruibili a partire da dati in streaming in tempo reale";
+  "L'agenzia di telecomunicazione che vuole implementare un business di questo tipo avrà bisogno di basare l'analisi dei dati raccolti (navigazione e geolocalizzazione) su un servizio di cloud computing di AWS. In modo particolare vengono utilizzati servizi quale Amazon Kinesis Data Analytics che permette di ricevere informazioni dettagliate e fruibili a partire da dati in streaming in tempo reale";
 
 export default function Home() {
   return (
